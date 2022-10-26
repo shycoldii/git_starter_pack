@@ -14,7 +14,7 @@
 1. Попробуй сделать изменение в файле binary_search.py
 2. git add binary_search.py 
 3. git commit -m "Something terribly misguided"
-4. git reset HEAD~ - Это отменит последний коммит
+4. git reset HEAD~ - Undo last commit
 5. Убираем свои изменения и добавляем где-то пробел, чтобы было что-то новенькое
 6. git add .
 7. git commit -m "Cool commit"
