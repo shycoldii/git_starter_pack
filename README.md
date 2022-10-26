@@ -11,11 +11,11 @@
 
 <h1> Возвращаемся в прошлое </h1>
 
+git config —-local user.name "John Doe"
+
+git config —-local user.email johndoe@example.com
+
 1. Попробуй сделать изменение в файле binary_search.py
-
-$ git config —-local user.name "John Doe"
-$ git config —-local user.email johndoe@example.com
-
 2. git add binary_search.py 
 3. git commit -m "Something terribly misguided"
 4. git reset HEAD~ - Undo last commit
