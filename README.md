@@ -11,6 +11,8 @@
 
 <h1> Возвращаемся в прошлое </h1>
 
+Для дальнейшей работы с удаленным репозиторием указываем данные вашего аккаунта:
+
 git config —-local user.name "John Doe"
 
 git config —-local user.email johndoe@example.com
@@ -37,3 +39,17 @@ git config —-local user.email johndoe@example.com
 4. git push origin v1.0
 5. Видим тег в репозитории
 6. git push —delete origin v1.0  - откатываем тег из репозитория
+
+<h2> Возможные проблемы </h2>
+
+Support for password authentication was removed on august 13 2021
+
+Решение:
+
+Settings => Developer Settings => Personal Access Token => Generate New Token 
+
+Ставим галочки на весь repo и на read_org
+
+Токен сгенерирован! Теперь вставляем его вместо пароля.
+
+
